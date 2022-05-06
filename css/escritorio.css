@@ -1,0 +1,81 @@
+body{
+    width:100%;
+    height: auto;
+
+    /* Alineación */
+    display: flex;
+    justify-content: center;
+}
+
+.escritorio{
+    width:100rem;
+    height: 55rem;
+    
+
+    margin-top: 6rem; 
+
+}
+
+.escritoriodos{
+    position: relative;
+    display: flex;
+    object-fit: fill;
+    align-items: flex-end;
+  
+}    
+
+.escritorio img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.barratareas{
+    width: 100%;
+    height: 4.5rem;
+    position: absolute;
+
+    background-color: #1E1D1D;
+}
+.hora{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2.5rem;
+    color: white;
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    
+}
+.icono {
+    width:5rem;
+    height: 3rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 1rem;
+    margin-bottom: 0.5rem;
+ 
+}
+.carpeta{
+    width:4.5rem;
+    height: 2.5rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 2rem;
+    margin-left: 4rem;
+    margin-bottom: 0.8rem;
+}
+.iconos{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 2rem;
+    margin-left: 38rem;
+    margin-bottom: 0.8rem;
+}

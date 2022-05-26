@@ -1,0 +1,56 @@
+.barratareas{
+    width: 100%;
+    height: 4rem;
+    padding: 0 1rem;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #1E1D1D;
+}
+.hora{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 2.5rem;
+    color: white;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    
+}
+.activarventana{
+    display: flex;
+}
+.iconomenu {
+    width:7rem;
+    height: 4rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 2rem;
+    margin-bottom: 0.1rem;
+    
+}
+
+.iconomenu :hover{
+    filter: opacity(.5);
+}
+.carpeta{
+    width:7.5rem;
+    height: 3.5rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 4rem;
+    margin-left: 4rem;
+    margin-bottom: 0.1rem;
+    margin-top: 0.4rem;
+}
+.carpeta :hover{
+    filter: opacity(.5);
+}

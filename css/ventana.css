@@ -1,0 +1,68 @@
+.ventana{
+    width:70rem;
+    height: 50rem;
+    background-color: rgba(230, 226, 226, 0.475);
+    position: absolute;
+    top: 7rem;
+    right: 13rem;
+    border-radius: 5rem;
+    display: none;
+}
+.activarventana{
+    display: flex;
+}
+
+.carpeta1 {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 20rem;
+    margin-top: 6rem;
+}
+.carpeta1 :hover{
+    filter: opacity(.5);
+}
+.icoven {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 60rem;
+    margin-top: 1.5rem;
+ 
+}
+.licarpetas {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 2rem;
+    margin-top: 6rem;
+ 
+}
+.atras {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 3rem;
+    margin-top: 1.5rem;
+ }
+
+ .atras :hover{
+    filter: opacity(.5);
+}
+
+.adelante {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 6.5rem;
+    margin-top: 1.5rem;
+}
+
+.adelante :hover{
+    filter: opacity(.5);
+}
